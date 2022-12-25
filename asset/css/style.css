@@ -1,0 +1,98 @@
+.multi-item{
+    display: flex;
+}
+:root{
+    --header-bg:rgb(51, 53, 69);
+    --header-menu:rgb(31, 37, 51);
+    --menu-txt:rgb(204, 204, 204);
+}
+
+.header {
+    background-color: var(--header-bg);
+}
+.header a{
+    color: --menu-txt;
+}
+.menu {
+    background-color: var(--header-menu);
+    color: white;
+}
+.header .nav-link:focus, .header .nav-link:hover {
+    color: white;
+}
+.header .nav-link {
+    color:var(--menu-txt);
+}
+.menu a {
+    color:var(--menu-txt);
+}
+.menu a.nav-link.active{
+    color: white;
+}
+.menu a:hover{
+    color: white;
+}
+.text-white {
+    color: white;
+}
+.bg-gray {
+    background-color: rgb(43, 49, 72) ;   
+    color: white; 
+}
+.bg-gray h3,  .bg-gray p {
+    color: white;
+}
+.card {
+    border: none;
+}
+footer {
+    background-color: rgb(49, 48, 53);
+    padding-top:20px;
+    padding-bottom:60px;
+}
+.iconsref {
+    background-color:rgb(64, 64, 67);
+}
+.iconsref a h6 {
+    font-size:12px;
+    margin-top: 15px;
+}
+.iconsref a:hover {
+    color: white;
+}
+.iconsref a {
+    text-decoration: none;
+    color: var(--menu-txt) ;   
+}
+.iconsref svg path{
+    fill: var(--menu-txt);
+}
+.container-footer {
+    max-width: 94%;
+    margin: auto;
+
+}
+.show-list {
+    color: white;
+}
+.footer-logo {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 30px;
+}
+.flx-1 {
+    flex: 1;
+    height: 1px;
+    background-color: var(--menu-txt);
+}
+.footer-menu {
+    color: rgb(127, 127, 127);
+}
+.footer-menu a {
+    color: rgb(127, 127, 127);
+    text-decoration: none;
+    border-right: 1px solid rgb(127, 127, 127);
+    padding: 0 10px;
+    font-size: 12px;
+}
